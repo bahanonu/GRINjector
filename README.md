@@ -125,5 +125,5 @@ This program is distributed in the hope that it will be useful, but WITHOUT ANY 
 You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
 
 ## Repository stats
-<!-- - ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbahanonu%2FGRINjector) (starting 2020.11.02) -->
-<!-- - ![visitors](https://visitor-badge.glitch.me/badge?page_id=bahanonu.GRINjector) (starting 2020.11.02) -->
+- ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbahanonu%2FGRINjector) (starting 2020.11.02)
+- ![visitors](https://visitor-badge.glitch.me/badge?page_id=bahanonu.GRINjector) (starting 2020.11.02)
