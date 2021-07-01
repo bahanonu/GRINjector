@@ -2,7 +2,8 @@
 
 <!-- ![image](https://user-images.githubusercontent.com/5241605/97932336-945bbb80-1d24-11eb-9098-b09245b89beb.png) -->
 <!-- ![image](https://user-images.githubusercontent.com/5241605/98111332-4a262780-1e55-11eb-887c-673c79a5a353.png) -->
-<img src="https://user-images.githubusercontent.com/5241605/124192957-f23ecf80-da7a-11eb-9894-70a6294c9538.png" width="42%" align="right" alt="ciatah_logo">
+![image](https://user-images.githubusercontent.com/5241605/124192957-f23ecf80-da7a-11eb-9894-70a6294c9538.png)
+<!-- <img src="https://user-images.githubusercontent.com/5241605/124192957-f23ecf80-da7a-11eb-9894-70a6294c9538.png" width="42%" align="right" alt="ciatah_logo"> -->
 
 ![GitHub license](https://img.shields.io/github/license/bahanonu/GRINjector?style=flat-square&logo=appveyor)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/bahanonu/GRINjector?style=flat-square&logo=appveyor)](https://github.com/bahanonu/GRINjector/releases/latest?style=flat-square&logo=appveyor)
