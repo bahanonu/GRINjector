@@ -39,12 +39,12 @@ Below is a list of components needed to assemble a GRINjector:
 * 1x - 4-40 x 1/4'' cap screw.
 * 4x - 4-40 x 5/16'' cap screw.
 * Luer lock needle (`Holder needle`) matched to the size of the GRIN lens probe.
- * For 1-mm GRIN lens probe, recommend 17G needle that is 0.04-0.042'' inner diameter (e.g. https://www.mcmaster.com/6710A24/).
- * For 0.5-mm GRIN lens probe, recommend 21G needle (e.g. https://www.mcmaster.com/6710A28/).
+  * For 1-mm GRIN lens probe, recommend 17G needle that is 0.04-0.042'' inner diameter (e.g. https://www.mcmaster.com/6710A24/).
+  * For 0.5-mm GRIN lens probe, recommend 21G needle (e.g. https://www.mcmaster.com/6710A28/).
 * Thin needle (`Stability needle`) that is ~80-mm long and between 0.25-0.5-mm diameter (smaller version for smaller GRIN lens probes).
- * 0.25-mm diameter: https://www.mcmaster.com/6710A48/.
- * 0.5-mm diameter: https://www.mcmaster.com/6710A28/.
- * Used to hold the GRIN probe in place as outer sheath is removed. For the above pieces, may need to cut the metal piece from the Luer lock portion.
+  * 0.25-mm diameter: https://www.mcmaster.com/6710A48/.
+  * 0.5-mm diameter: https://www.mcmaster.com/6710A28/.
+  * Used to hold the GRIN probe in place as outer sheath is removed. For the above pieces, may need to cut the metal piece from the Luer lock portion.
 
 ## Printing
 
