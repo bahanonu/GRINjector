@@ -1,13 +1,15 @@
 # GRINjector
 
 <!-- ![image](https://user-images.githubusercontent.com/5241605/97932336-945bbb80-1d24-11eb-9098-b09245b89beb.png) -->
-![image](https://user-images.githubusercontent.com/5241605/98111332-4a262780-1e55-11eb-887c-673c79a5a353.png)
+<!-- ![image](https://user-images.githubusercontent.com/5241605/98111332-4a262780-1e55-11eb-887c-673c79a5a353.png) -->
+<img src="https://user-images.githubusercontent.com/5241605/124192957-f23ecf80-da7a-11eb-9894-70a6294c9538.png" width="42%" align="right" alt="ciatah_logo">
 
 ![GitHub license](https://img.shields.io/github/license/bahanonu/GRINjector?style=flat-square&logo=appveyor)
 [![GitHub release (latest by date)](https://img.shields.io/github/v/release/bahanonu/GRINjector?style=flat-square&logo=appveyor)](https://github.com/bahanonu/GRINjector/releases/latest?style=flat-square&logo=appveyor)
 [![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg?style=flat-square)](https://github.com/bahanonu/GRINjector/graphs/commit-activity?style=flat-square&logo=appveyor)
+![visitors](https://visitor-badge.glitch.me/badge?page_id=bahanonu.GRINjector)
 
-__GRINjector__ is a device for injecting GRIN lens probes into animals. The advantages are: 
+__GRINjector__ is a device for injecting gradient-refractive index (GRIN) lens probes into animals. The advantages are:
 1. The injection needle displaces brain tissue, improving targetting and minimizing tissue compression.
 2. The GRIN is held in place during retraction of the placement needle from the GRIN and the GRINJector device.
 3. The guide needle can be easily swapped for other guide needles depending on the diameter and length of the GRIN lens probe.
@@ -35,8 +37,13 @@ Below is a list of components needed to assemble a GRINjector:
 * 1x - 4-40 x 3/16'' cap screw.
 * 1x - 4-40 x 1/4'' cap screw.
 * 4x - 4-40 x 5/16'' cap screw.
-* Luer lock needle matched to the size of the GRIN lens probe.
-* 0.5-mm diameter needle that is ~80-mm long.
+* Luer lock needle (`Holder needle`) matched to the size of the GRIN lens probe.
+ * For 1-mm GRIN lens probe, recommend 17G needle that is 0.04-0.042'' inner diameter (e.g. https://www.mcmaster.com/6710A24/).
+ * For 0.5-mm GRIN lens probe, recommend 21G needle (e.g. https://www.mcmaster.com/6710A28/).
+* Thin needle (`Stability needle`) that is ~80-mm long and between 0.25-0.5-mm diameter (smaller version for smaller GRIN lens probes).
+ * 0.25-mm diameter: https://www.mcmaster.com/6710A48/.
+ * 0.5-mm diameter: https://www.mcmaster.com/6710A28/.
+ * Used to hold the GRIN probe in place as outer sheath is removed. For the above pieces, may need to cut the metal piece from the Luer lock portion.
 
 ## Printing
 
@@ -66,17 +73,19 @@ Below are step-by-step by step instructions for assembling the GRINjector after 
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98114951-e0108100-1e5a-11eb-87b9-db21052ec571.png" width="70%"></p>
 
-6. Next, place a blunt or syringe tip `Luer needle` that matches the size of your GRIN lens probe into the groove of the `grinjector_mainneedle_connector_bottom` piece then place the `grinjector_mainneedle_connector_top` piece on top. Screw the `grinjector_mainneedle_connector_top` in place with 4-40 x 5/16'' cap screws then secure the Luer needle with a 4-40 x 1/4'' cap screw.
+6. Next, place a blunt or syringe tip `Holder needle` that matches the size of your GRIN lens probe into the groove of the `grinjector_mainneedle_connector_bottom` piece then place the `grinjector_mainneedle_connector_top` piece on top. Screw the `grinjector_mainneedle_connector_top` in place with 4-40 x 5/16'' cap screws then secure the `Holder needle` with a 4-40 x 1/4'' cap screw.
 
-  * Syringe tip Luer needle allows easier parting of the underlying tissue as the GRINjector is lowered into the brain or spinal cord tissue.
+  * Syringe tip Luer-lock needles allow easier parting of the underlying tissue as the GRINjector is lowered into the brain or spinal cord tissue.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98116044-92951380-1e5c-11eb-823e-143962dddfa5.png" width="40%"></p>
 
-7. Next, obtain a long, `0.5-mm diameter needle` and thread through the small opening at the top of `grinjector_bottom_connector`. The needle will then go through the Luer needle. Lock the needle in place with a 4-40 x 3/16'' cap screw.
+7. Next, obtain a long, `Stability needle` (e.g. ~80-mm long, 0.5-mm diameter) and thread through the small opening at the top of `grinjector_bottom_connector`. The `Stability needle` will then go through the `Holder needle`. Lock the needle in place with a 4-40 x 3/16'' cap screw.
+
+  * Note that the end of the `Stability needle` can be sanded or polished to avoid the chance that it will scratch the GRIN lens probe during implantation and retraction.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98115791-3c27d500-1e5c-11eb-88a2-a93a26b4b4f6.png" width="30%"></p>
 
-8. Lastly, verify that the chosen Luer needle fits the GRIN lens probe tightly and that you can push the GRIN lens probe out of the Luer needle smoothly by twisting the SM-13 micrometer.
+8. Lastly, verify that the chosen `Holder needle` fits the GRIN lens probe tightly and that you can push the GRIN lens probe out of the `Holder needle` smoothly by twisting the SM-13 micrometer.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98116361-0505f380-1e5d-11eb-9d98-f1d25e4e50c8.png" width="60%"></p>
 
@@ -84,14 +93,29 @@ You are now done assembled the GRINjector! Happy imaging.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98117424-93c74000-1e5e-11eb-941a-dd73a9046b34.png" width="40%"></p>
 
+## Animal experiments
+
 To use the GRINjector in an animal:
 * Attach the GRINjector onto a stereotaxic arm then perform your normal GRIN lens probe crainotomy surgery.
-* Lower the GRIN into the brain using the GRINjector (below diagram, left). 
+* Lower the GRIN into the brain using the GRINjector (below diagram, left).
 * After placement at desired coordinates in tissue, raise the blunt tip needle by twisting the micrometer until the needle is clear of the GRIN lens probe. The red needle secures the GRIN in place during retraction of the device.
-* Secure the GRIN in place with dental cement, UV glue, or your adhesive of choice then after it as set, slowly raise the GRINjector using the stereotaxic arm. 
+* Secure the GRIN in place with dental cement, UV glue, or your adhesive of choice then after it as set, slowly raise the GRINjector using the stereotaxic arm.
 * If your stereotaxic arm allows angles, the GRINjector can be used to target the same site at different angles to avoid vasculature or vital brain regions (below diagram, right).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98118465-1a305180-1e60-11eb-9ea6-34a963d214c3.png" width="100%"></p>
+
+## Notes
+
+`Holder needle`:
+* SAI Infusion works well: https://www.sai-infusion.com/products/blunt-needles?variant=333055723. The plastic has some give that works well with the 3D printed parts.
+* Check that the needle inner diameter is as close to the GRIN lens size as possible, e.g. for 1-mm that would be 17G needles that are ~0.04-0.042'' (https://www.mcmaster.com/6710A24/). 
+* Sometimes users have to check a couple needles within the same batch since there will be slight size variations that will optimally fit their GRIN lenses.
+
+`Stability needle`:
+* We have found that a metal needle (e.g. could go with https://www.mcmaster.com/6710A48/ or similar then cut the needle to the desired length) does not cause significant scratching.
+* If you have a grinder (handheld or bench), polisher (e.g. https://www.ultratecusa.com/product/ultrapol-end-edge-polisher/), or similar surface, then you can make the needle surface smoother and flat. 
+* Alternatively can place a small drop of optical glue on the end of the needle and cure it or look for plastic needles.
+
 
 ## Acknowledgements
 
@@ -99,7 +123,7 @@ I would like to thank [Prof. Benjamin Grewe](https://www.ini.uzh.ch/en/institute
 
 ## References
 
-We have a book chapter pending describing this device. In the meantime, please cite our [Corder*, Ahanonu*, et al. 2019](http://science.sciencemag.org/content/363/6424/276.full) _Science_ publication if you used this device in your research:
+We have a book chapter pending describing this device. In the meantime, if you used this device in your research please cite our publication [Corder*, Ahanonu*, et al. _Science_ 2019](http://science.sciencemag.org/content/363/6424/276.full) :
 
 ```Latex
 @article{corderahanonu2019amygdalar,
@@ -116,7 +140,7 @@ We have a book chapter pending describing this device. In the meantime, please c
 
 ## License
 
-Copyright (C) 2015-2020 Biafra Ahanonu
+Copyright (C) 2015-2021 Biafra Ahanonu
 
 This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
 
