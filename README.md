@@ -17,7 +17,9 @@ __GRINjector__ is a device for injecting gradient-refractive index (GRIN) lens p
 
 This repository contains CAD files for printing GRINjector version 3.0 components and assembling them into a usable GRINjector.
 
-Questions? Contact: Biafra Ahanonu (bahanonu [at] alum [dot] mit [dot] edu).
+For those conducting calcium imaging experiments and analysis, we have a software package called CIAtah: https://github.com/bahanonu/ciatah.
+
+Questions? Contact: Biafra Ahanonu (github [at] bahanonu [dot] com).
 
 ## Components
 
@@ -143,11 +145,7 @@ We have a book chapter pending describing this device. In the meantime, if you u
 
 Copyright (C) 2015-2021 Biafra Ahanonu
 
-This program is free software: you can redistribute it and/or modify it under the terms of the GNU General Public License as published by the Free Software Foundation, either version 3 of the License, or (at your option) any later version.
-
-This program is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for more details.
-
-You should have received a copy of the GNU General Public License along with this program. If not, see http://www.gnu.org/licenses/.
+This project is licensed under the terms of the MIT license. See LICENSE file for details.
 
 ## Repository stats
 - ![Hits](https://hitcounter.pythonanywhere.com/count/tag.svg?url=https%3A%2F%2Fgithub.com%2Fbahanonu%2FGRINjector) (starting 2020.11.02)
