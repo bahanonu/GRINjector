@@ -15,7 +15,11 @@ __GRINjector__ is a device for injecting gradient-refractive index (GRIN) lens p
 2. The GRIN is held in place during retraction of the placement needle from the GRIN and the GRINJector device.
 3. The guide needle can be easily swapped for other guide needles depending on the diameter and length of the GRIN lens probe.
 
-This repository contains CAD files for printing GRINjector version 3.0 components and assembling them into a usable GRINjector.
+This repository contains CAD files for printing GRINjector version 3.0 components and assembling them into a usable GRINjector. 
+
+The assembly and use of the GRINjector is also detailed in our book chapter.
+* GRINjection section: https://link.springer.com/protocol/10.1007/978-1-0716-2039-7_13#Sec6.
+* Fig. 3: https://link.springer.com/protocol/10.1007/978-1-0716-2039-7_13/figures/3.
 
 For those conducting calcium imaging experiments and analysis, we have a software package called CIAtah: https://github.com/bahanonu/ciatah.
 
@@ -42,6 +46,7 @@ Below is a list of components needed to assemble a GRINjector:
 * 4x - 4-40 x 5/16'' cap screw.
 * Luer lock needle (`Holder needle`) matched to the size of the GRIN lens probe.
   * For 1-mm GRIN lens probe, recommend 17G needle that is 0.04-0.042'' inner diameter (e.g. https://www.mcmaster.com/6710A24/).
+    * Rubber tubing: https://www.mcmaster.com/5236K203/.
   * For 0.5-mm GRIN lens probe, recommend 21G needle (e.g. https://www.mcmaster.com/6710A28/).
 * Thin needle (`Stability needle`) that is ~80-mm long and between 0.25-0.5-mm diameter (smaller version for smaller GRIN lens probes).
   * 0.25-mm diameter: https://www.mcmaster.com/6710A48/.
@@ -89,6 +94,8 @@ Below are step-by-step by step instructions for assembling the GRINjector after 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98115791-3c27d500-1e5c-11eb-88a2-a93a26b4b4f6.png" width="30%"></p>
 
 8. Lastly, verify that the chosen `Holder needle` fits the GRIN lens probe tightly and that you can push the GRIN lens probe out of the `Holder needle` smoothly by twisting the SM-13 micrometer.
+  
+  * Note: rubber tubing (e.g. for 1-mm diameter probes, https://www.mcmaster.com/5236K203/) can be placed at the end of the `Holder needle` to ensure the GRIN lens does not slip from the GRINjector during use while still allowing the `Holder needle` to be retracted from around the GRIN.
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98116361-0505f380-1e5d-11eb-9d98-f1d25e4e50c8.png" width="60%"></p>
 
@@ -106,6 +113,12 @@ To use the GRINjector in an animal:
 * If your stereotaxic arm allows angles, the GRINjector can be used to target the same site at different angles to avoid vasculature or vital brain regions (below diagram, right).
 
 <p align="center"><img src="https://user-images.githubusercontent.com/5241605/98118465-1a305180-1e60-11eb-9ea6-34a963d214c3.png" width="100%"></p>
+
+## Head bar
+
+We use several different headbar designs that allow us to clamp the animal during baseplate mounting, attaching the miniature microscope before experiments, and other uses. An example head bar design can be found in `cad_files/DXF`.
+
+![Image](https://github.com/user-attachments/assets/4e1167ab-d96e-4c1b-9ba9-8126f0ef245c)
 
 ## Notes
 
@@ -126,7 +139,20 @@ I would like to thank [Prof. Benjamin Grewe](https://www.ini.uzh.ch/en/institute
 
 ## References
 
-We have a book chapter pending describing this device. In the meantime, if you used this device in your research please cite our publication [Corder*, Ahanonu*, et al. _Science_ 2019](http://science.sciencemag.org/content/363/6424/276.full) :
+Please cite the [Ahanonu and Corder, 2022](https://doi.org/10.1007/978-1-0716-2039-7_13) book chapter if you used procedures detailed here.
+
+```bibtex
+@incollection{ahanonu2022recording,
+  title={Recording Pain-Related Brain Activity in Behaving Animals Using Calcium Imaging and Miniature Microscopes},
+  author={Ahanonu, Biafra and Corder, Gregory},
+  booktitle={Contemporary Approaches to the Study of Pain},
+  pages={217--276},
+  year={2022},
+  publisher={Springer}
+}
+```
+
+Alternatively, please cite our publication [Corder*, Ahanonu*, et al. _Science_ 2019](http://science.sciencemag.org/content/363/6424/276.full) :
 
 ```Latex
 @article{corderahanonu2019amygdalar,
@@ -143,7 +169,7 @@ We have a book chapter pending describing this device. In the meantime, if you u
 
 ## License
 
-Copyright (C) 2015-2021 Biafra Ahanonu
+Copyright (C) 2015-2025 Biafra Ahanonu
 
 This project is licensed under the terms of the MIT license. See LICENSE file for details.
 
